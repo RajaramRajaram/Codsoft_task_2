@@ -1,80 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header id="top">
-        <h1>Rajaram</h1>
-        <a href="#intro" class="cta-button">Intoduction</a>
-        <a href="#abt" class="cta-button">About</a>
-        <a href="#cnt" class="cta-button">Contact</a>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page-RR Movies</title>
+  </head>
+  <body>
     
-    <main>
-        <a href="#top" class="gt-btn" style="position: fixed;">Top</a>
-
-        <section id="intro">
-        <div class="intod">
-             <h2>Introduction</h2>
-             <div class="intro">
-             <div class="intro-cnt">
-               <p>* I am now developing my knowledge in the field of the developing...</p>
-               <p>* Very much interested in working as a team for a better cause...</p>
-               <p>* Excited to learn more and more about the field day by day....</p>
-               <p>* Take a look at my resume below also for a better understanding....</p>
-            </div>
-            <img src="/IMG_20240515_103030_064.jpg" alt="img" class="side-image">
-            </div>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="/logo.png" alt="logo" />
+            <span>RR Movies</span>
+          </a>
         </div>
-        </section>
-        
-        <section id="abt">
-            <div class="abt">
-            <h2>About Me</h2>
-            <div class="abt-cnt">
-            <div class="edu">
-                <h3>Education</h3>
-                <p>Bachelor of Engineering in Computer Science.</p>
-                <p> GKM College of Engineering and Technology, Chennai.</p>
-                <p>Graduated: 2025 CGPA: 8.12</p>
-            </div>
-            <div class="exp">
-                <h3>Experience</h3>
-                <p>I am now a fresher in this department </p> 
-                <p>but i have also done courses in NPTEL. </p>
-                <p>I have also done some projects regarding naan mudhalvan..</p>
-            </div>
-            <div class="int">
-                <h3>Interest</h3>
-                <p>Passionate about web and game development and </p>
-                <p>keen on exploring new technologies and frameworks.</p> 
-                <p>Active participant in online coding forums and communities.</p>
-            </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
         </div>
-    </div>
-        </section>
-        
-        <section id="cnt">
-            <div class="cont">
-            <h2>Contact Me</h2>
-            <div class="cnt">
-            <h3>Feel free to contact</h3>
-            <a href="https://www.instagram.com/itzme_.rr/" class="cta-button">Instagram</a>
-            <a href="https://www.facebook.com/profile.php?id=100024856339077" class="cta-button">Facebook</a>
-            <a href="https://www.linkedin.com/in/rajaramdeveloper/" class="cta-button">Linkedin</a>
-            <a href="tel:+91 7200484930" class="cta-button">Phone</a>
-            <a href="mailto:info@example.com" class="cta-button">Email me</a>
-            </div>
-         </div>
-        </section>
-    </main>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Watchlist</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <img class="img" src="/keanu-reeves-john-wick-gun-movies-wallpaper-preview.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <h2>Movie Platform</h2>
+        <h1>
+          Looking to spend some good time.<br /><span class="h1__span-1">Movies</span>
+          <span class="h1__span-2">is a better option.</span>
+        </h1>
+        <p>
+           Explore the adventures journey.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Explore</button>
+        </div>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
-    <footer>
-        <p>Thank you for visiting my page..</p>
-    </footer>
-</body>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+  </body>
 </html>
